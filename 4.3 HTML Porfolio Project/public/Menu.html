@@ -4,17 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
+    <style>
+      body {
+        background-color: #124076;
+        color: #124076;
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      h1 {
+        color: #7f9f80;
+        text-align: center;
+      }
+
+      hr {
+        border: 1px solid #7f9f80;
+        width: 80%;
+      }
+
+      p {
+        background-color: #f9e897;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+      }
+
+      ul,
+      ol {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+      }
+
+      li {
+        background-color: #f9e897;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      a button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #7f9f80;
+        color: #124076;
+        border: 2px solid #7f9f80;
+        transition: background-color 0.3s;
+      }
+
+      a button:hover {
+        background-color: #f9e897;
+        color: #124076;
+        border-color: #f9e897;
+      }
+    </style>
   </head>
   <body>
     <h1>Menu</h1>
     <hr />
-    Makanan
+    <p>Makanan</p>
     <ul>
       <li>Ayam Goreng</li>
       <li>Ikan Bakar</li>
       <li>Bakso Beranak</li>
     </ul>
-    Minuman
+    <p>Minuman</p>
     <ol>
       <li>Es Teh</li>
       <li>Jus</li>
